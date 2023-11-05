@@ -1,10 +1,13 @@
-def main(a):
-    """
-    Check the logic "The variable "a" is an odd number"
-    Args:
-        a: int
-    Returns:
-        bool
-    """
-    # Write your code here
-    return 
+def toq_son_tekshiruvchi(son):
+    if son % 2 == 1:
+        return True
+    else:
+        return False
+
+# Funktsiyani test qilish
+a = 7
+b = 4
+
+print(toq_son_tekshiruvchi(a))  # true
+print(toq_son_tekshiruvchi(b))  # false
+  

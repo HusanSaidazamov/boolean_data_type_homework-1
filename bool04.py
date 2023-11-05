@@ -1,4 +1,6 @@
-def main(a):
+def main(a,b):
+    a=12
+    b=-1
     """
     Check the logic "The variable "a" is negative"
     Args:
@@ -7,4 +9,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a<0,b<0 
+    
+print(main(12,-1))
